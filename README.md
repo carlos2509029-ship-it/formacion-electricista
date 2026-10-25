@@ -1,0 +1,1 @@
+Esta es una práctica en la que generaremos un sitio web para la capacitación en electricidad.
