@@ -1,0 +1,173 @@
+
+body {
+    background-color: #102746;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #FACC15;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.logo {
+    width: 180px;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+h2 {
+    margin-top: 32px;
+    color: #DCEBFA;
+}
+
+h3 {
+    margin-top: 24px;
+}
+
+/* Enlaces que todavía no se han visitado */
+a:link {
+    color: #FFD700;
+}
+
+/* Enlaces que ya se han visitado */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* Cuando el cursor pasa sobre el enlace */
+a:hover {
+    color: #00E5FF;
+}
+
+/* Mientras se pulsa el enlace */
+a:active {
+    color: #FF8C00;
+}
+
+/* Contenedor de las cuatro tarjetas */
+.niveles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+}
+
+/* Diseño general de cada tarjeta */
+.tarjeta {
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid white;
+    background-color: #1C385B;
+}
+
+/* Colores distintivos de cada nivel */
+.nivel-cero {
+    border-left-color: #BFC7D5;
+}
+
+.principiante {
+    border-left-color: #22C55E;
+}
+
+.intermedio {
+    border-left-color: #FACC15;
+}
+
+.avanzado {
+    border-left-color: #EF4444;
+}
+
+/* Títulos y párrafos de las tarjetas */
+.tarjeta h3 {
+    margin-top: 0;
+    color: #FFFFFF;
+}
+
+.tarjeta p {
+    color: #E2E8F0;
+}
+
+.tarjeta a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 16px;
+    background-color: #FACC15;
+    color: #102746;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.tarjeta a:hover {
+    background-color: #FFFFFF;
+    color: #102746;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 600px) {
+    .niveles {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Cabecera de la plataforma */
+.cabecera {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+/* Tamaño del logotipo */
+.logo {
+    width: 180px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+/* Título de la cabecera */
+.cabecera h1 {
+    margin: 0;
+}
+
+/* Adaptación a pantallas pequeñas */
+@media (max-width: 600px) {
+    .cabecera {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+}
+/* Limitar el ancho de lectura */
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Mejorar la lectura de los párrafos */
+p {
+    max-width: 1100px;
+    line-height: 1.7;
+}

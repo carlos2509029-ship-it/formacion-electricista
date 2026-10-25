@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formación de Técnico Electricista Trifásico</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>
-        Formación de Técnico Electricista "Electrical Quality"
-    </h1>
+<header class="cabecera">
+    <img
+        src="images/logotipo.png"
+        alt="Logotipo de Electrical Quality"
+        class="logo"
+    >
+    <h1>Formación de Técnico Electricista "Electrical Quality"</h1>
+</header>
     <h2>
         Introducción para plataforma de capacitación
     </h2>
@@ -104,23 +109,39 @@
 
     <h2>Niveles de aprendizaje</h2>
 
-    <ul>
-        <li>
-            <a href="nivel-cero/index.html">Nivel Cero - Preprincipiante</a>
-        </li>
-        <li>
-            <a href="principiante/index.html">Nivel Principiante</a>
-        </li>
-        <li>
-            <a href="intermedio/index.html">Nivel Intermedio</a>
-        </li>
-        <li>
-            <a href="avanzado/index.html">Nivel Avanzado</a>
-        </li>
-        <li>
-            <a href="preguntas-frecuentes/index.html">Preguntas Frecuentes</a>
-        </li>
-    </ul>
 
+<div class="niveles">
+
+    <div class="tarjeta nivel-cero">
+        <h3>Nivel Cero</h3>
+        <p>Fundamentos de electricidad para comenzar desde cero.</p>
+        <a href="nivel-cero/index.html">Entrar al nivel</a>
+    </div>
+
+    <div class="tarjeta principiante">
+        <h3>Principiante</h3>
+        <p>Introducción a los sistemas eléctricos trifásicos.</p>
+        <a href="principiante/index.html">Entrar al nivel</a>
+    </div>
+
+    <div class="tarjeta intermedio">
+        <h3>Intermedio</h3>
+        <p>Motores, maniobras, protecciones y mantenimiento.</p>
+        <a href="intermedio/index.html">Entrar al nivel</a>
+    </div>
+
+    <div class="tarjeta avanzado">
+        <h3>Avanzado</h3>
+        <p>Diagnóstico de fallas y sistemas eléctricos complejos.</p>
+        <a href="avanzado/index.html">Entrar al nivel</a>
+    </div>
+
+</div>
+
+<p>
+    <a href="preguntas-frecuentes/index.html">
+        Consultar preguntas frecuentes
+    </a>
+</p>
 </body>
 </html>
